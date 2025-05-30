@@ -334,7 +334,7 @@ export default function SkillsRecognitionPortal() {
               </li>
               <li>
                 <strong>Bug Buster</strong> – Closed 3 tech support tickets on
-                UOB private cloud infra or platform tools
+                UOB Private Cloud Infra or Platform Tools
               </li>
             </ul>
           </div>
