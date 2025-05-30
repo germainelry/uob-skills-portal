@@ -120,7 +120,7 @@ export default function SkillsRecognitionPortal() {
         {/* Knowledge Hub */}
         <div className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-indigo-500 overflow-y-auto max-h-[85vh]">
           <h2 className="text-2xl font-extrabold text-indigo-800 mb-4 flex items-center">
-            📘 Knowledge Hub – Our Internal Stack Overflow
+            📘 Knowledge Hub
           </h2>
           <input
             type="text"
@@ -243,7 +243,7 @@ export default function SkillsRecognitionPortal() {
         {/* Gamified Recognition */}
         <div className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-teal-500 overflow-y-auto max-h-[85vh]">
           <h2 className="text-2xl font-extrabold text-teal-700 mb-4 flex items-center">
-            🏆 Gamified Recognition
+            🏆 UOB Reward Hub
           </h2>
           <div className="mb-4 bg-teal-50 p-4 rounded-xl shadow-inner">
             <h3 className="text-xl font-bold text-teal-800">
