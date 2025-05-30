@@ -37,6 +37,33 @@ export default function SkillsRecognitionPortal() {
           <div className="space-y-4">
             <div className="p-4 border rounded bg-blue-50 hover:bg-blue-100 transition">
               <h3 className="font-semibold text-blue-800">
+                Create Intelligent IAC Chatbot
+              </h3>
+              <p className="text-sm text-gray-700">
+                Build an AI-powered chatbot that can answer common
+                Infrastructure as Code (IAC) queries, such as locating cookbooks
+                to execute specific tasks.
+              </p>
+              <p className="text-xs text-gray-500">Estimated time: 7 hours</p>
+              <button className="mt-2 text-sm text-blue-600 hover:underline">
+                View details →
+              </button>
+            </div>
+            <div className="p-4 border rounded bg-blue-50 hover:bg-blue-100 transition">
+              <h3 className="font-semibold text-blue-800">
+                Create Splunk Query for High-Risk Transactions
+              </h3>
+              <p className="text-sm text-gray-700">
+                Develop a Splunk query and rule to detect error logs or
+                high-risk transactions from new/unusual devices in real-time.
+              </p>
+              <p className="text-xs text-gray-500">Estimated time: 4 hours</p>
+              <button className="mt-2 text-sm text-blue-600 hover:underline">
+                View details →
+              </button>
+            </div>
+            <div className="p-4 border rounded bg-blue-50 hover:bg-blue-100 transition">
+              <h3 className="font-semibold text-blue-800">
                 Write Chef Cookbook to Refresh Expiring Certificates
               </h3>
               <p className="text-sm text-gray-700">
@@ -106,7 +133,7 @@ export default function SkillsRecognitionPortal() {
               <div className="mt-2 space-y-3">
                 <div>
                   <h4 className="font-semibold text-indigo-600">
-                    Setting Up Jenkins CI/CD for Java Apps
+                    Setting Up Jenkins CI/CD for IAC for UOB TMRW Application
                   </h4>
                   <p className="text-sm text-gray-600">
                     Walkthrough for deploying Java Spring Boot apps using
@@ -138,7 +165,23 @@ export default function SkillsRecognitionPortal() {
               <div className="mt-2 space-y-3">
                 <div>
                   <h4 className="font-semibold text-indigo-600">
-                    How do I trigger a Jenkins pipeline from GitHub PR merge?
+                    How to add certain Chef exceptions on Chef?
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    E.g., to disable password complexity temporarily for RHEL
+                    CIS Benchmark exceptions. Refer to UOB OS Hardening Policy
+                    for guidance.{" "}
+                    <a href="#" className="text-blue-600 underline">
+                      View GIS CIS Benchmarks Standards Page →
+                    </a>
+                  </p>
+                  <p className="text-xs text-gray-400">
+                    Asked by Germaine • 2 answers • 1 hour ago
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-indigo-600">
+                    How do I trigger a Jenkins pipeline from BitBucket PR merge?
                   </h4>
                   <p className="text-xs text-gray-400">
                     Asked by Alice • 3 answers • 4 days ago
@@ -163,36 +206,104 @@ export default function SkillsRecognitionPortal() {
           <h2 className="text-2xl font-extrabold text-teal-700 mb-4 flex items-center">
             🏆 Gamified Recognition
           </h2>
-          <p className="text-3xl font-bold text-teal-900 mb-4">
-            🎉 1,250 points
-          </p>
-          <div className="mb-6">
-            <p className="text-sm">
-              🏅 <strong>HEAL$:</strong> 1000 pts → $100
+          <div className="mb-4 bg-teal-50 p-4 rounded-xl shadow-inner">
+            <h3 className="text-xl font-bold text-teal-800">
+              Welcome back, Germaine Luah!
+            </h3>
+            <p className="text-lg text-gray-800 mt-2">
+              🎉 You currently have{" "}
+              <span className="font-bold text-teal-600">1,250 points</span>
             </p>
-            <p className="text-sm">
-              🎁 <strong>NTUC Voucher:</strong> 500 pts → $50
-            </p>
-            <p className="text-sm">
-              🎧 <strong>Wireless Headphones:</strong> 2000 pts
-            </p>
-            <p className="text-sm">
-              🛍️ <strong>Extra Leave Day:</strong> 1500 pts
+            <p className="text-sm text-gray-500">
+              Keep contributing to earn rewards and climb the leaderboard!
             </p>
           </div>
-          <h3 className="text-lg font-semibold text-gray-700 mb-2">
-            🏅 Leaderboard
-          </h3>
-          <ul className="space-y-1 text-sm">
-            {["Alice", "John", "Sarah", "Ben", "Rachel", "David"].map(
-              (name, idx) => (
-                <li key={name}>
-                  {`🥇🥈🥉⭐️⭐️⭐️`[idx] || "🔹"} <strong>{name}</strong> –{" "}
-                  {1500 - idx * 100} pts
-                </li>
-              )
-            )}
-          </ul>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              🎯 Point Earning Activities
+            </h3>
+            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+              <li>Complete a micro-project (+300 pts)</li>
+              <li>Publish an approved how-to article (+200 pts)</li>
+              <li>Answer technical questions (+100 pts)</li>
+              <li>Host a workshop (+400 pts)</li>
+              <li>Submit reusable automation code (+250 pts)</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              🏅 Badges Earned
+            </h3>
+            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+              <li>
+                <strong>Automation Hero</strong> – Completed 5 micro-projects
+              </li>
+              <li>
+                <strong>Knowledge Contributor</strong> – Published 3 articles
+              </li>
+              <li>
+                <strong>Mentor Ally</strong> – Hosted 2 upskilling sessions
+              </li>
+              <li>
+                <strong>Bug Buster</strong> – Solved 3 internal tech issues
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              📈 Progress to Next Reward
+            </h3>
+            <div className="w-full bg-gray-200 rounded-full h-3 mb-2">
+              <div
+                className="bg-teal-500 h-3 rounded-full"
+                style={{ width: "83%" }}
+              ></div>
+            </div>
+            <p className="text-sm text-gray-600">
+              1250 / 1500 pts to next reward
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              🎁 Rewards Available
+            </h3>
+            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+              <li>HEAL$ – 1000 pts → $100</li>
+              <li>NTUC Voucher – 500 pts → $50</li>
+              <li>Wireless Headphones – 2000 pts</li>
+              <li>Extra Leave Day – 1500 pts</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              📜 Redemption History
+            </h3>
+            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+              <li>NTUC Voucher – Redeemed 1 week ago</li>
+              <li>HEAL$ – Redeemed last month</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              🏅 Leaderboard
+            </h3>
+            <ul className="space-y-1 text-sm">
+              {["Alice", "John", "Sarah", "Ben", "Rachel", "David"].map(
+                (name, idx) => (
+                  <li key={name}>
+                    {`🥇🥈🥉⭐️⭐️⭐️`[idx] || "🔹"} <strong>{name}</strong> –{" "}
+                    {1500 - idx * 100} pts
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
