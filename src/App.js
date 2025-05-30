@@ -221,39 +221,6 @@ export default function SkillsRecognitionPortal() {
 
           <div className="mb-6">
             <h3 className="text-lg font-semibold text-gray-700 mb-2">
-              🎯 Point Earning Activities
-            </h3>
-            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-              <li>Complete a micro-project (+300 pts)</li>
-              <li>Publish an approved how-to article (+200 pts)</li>
-              <li>Answer technical questions (+100 pts)</li>
-              <li>Host a workshop (+400 pts)</li>
-              <li>Submit reusable automation code (+250 pts)</li>
-            </ul>
-          </div>
-
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-700 mb-2">
-              🏅 Badges Earned
-            </h3>
-            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-              <li>
-                <strong>Automation Hero</strong> – Completed 5 micro-projects
-              </li>
-              <li>
-                <strong>Knowledge Contributor</strong> – Published 3 articles
-              </li>
-              <li>
-                <strong>Mentor Ally</strong> – Hosted 2 upskilling sessions
-              </li>
-              <li>
-                <strong>Bug Buster</strong> – Solved 3 internal tech issues
-              </li>
-            </ul>
-          </div>
-
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-700 mb-2">
               📈 Progress to Next Reward
             </h3>
             <div className="w-full bg-gray-200 rounded-full h-3 mb-2">
@@ -289,7 +256,7 @@ export default function SkillsRecognitionPortal() {
             </ul>
           </div>
 
-          <div>
+          <div className="mb-6">
             <h3 className="text-lg font-semibold text-gray-700 mb-2">
               🏅 Leaderboard
             </h3>
@@ -302,6 +269,43 @@ export default function SkillsRecognitionPortal() {
                   </li>
                 )
               )}
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              🏅 Badges Earned
+            </h3>
+            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+              <li>
+                <strong>Automation Hero</strong> – Contributed 5 automation
+                cookbooks/scripts used in UOB TMRW platform
+              </li>
+              <li>
+                <strong>Knowledge Contributor</strong> – Published 3
+                UOB-approved articles on internal Chef/Jenkins/InSpec practices
+              </li>
+              <li>
+                <strong>Mentor Ally</strong> – Conducted 2 sessions for UOB Tech
+                Academy or Cloud Guild
+              </li>
+              <li>
+                <strong>Bug Buster</strong> – Closed 3 Jira tech support tickets
+                on UOB private cloud infra or platform tools
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold text-gray-700 mb-2">
+              🎯 Point Earning Activities
+            </h3>
+            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
+              <li>Complete a micro-project (+300 pts)</li>
+              <li>Publish an approved how-to article (+200 pts)</li>
+              <li>Answer technical questions (+100 pts)</li>
+              <li>Host a workshop (+400 pts)</li>
+              <li>Submit reusable automation code (+250 pts)</li>
             </ul>
           </div>
         </div>
