@@ -196,6 +196,45 @@ export default function SkillsRecognitionPortal() {
                     Asked by Ben • 2 answers • 1 day ago
                   </p>
                 </div>
+                <div>
+                  <h4 className="font-semibold text-indigo-600">
+                    How to configure Chef cookbook deployment for UOB TMRW QA
+                    environment?
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Guidelines for cookbook structure and environment file
+                    configuration. Includes secrets management best practices.
+                  </p>
+                  <p className="text-xs text-gray-400">
+                    Asked by Harish • 1 answer • 2 hours ago
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-indigo-600">
+                    How to set up GitHub webhook to auto-deploy Spring Boot on
+                    UOB TMRW Dev environment?
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Setup for GitHub Actions + Jenkins to build & deploy after
+                    PR approval. Uses shared DevOps library.
+                  </p>
+                  <p className="text-xs text-gray-400">
+                    Asked by Lina • 2 answers • 3 days ago
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-indigo-600">
+                    What’s the difference between using InSpec vs custom Bash
+                    script for compliance checks in UOB?
+                  </h4>
+                  <p className="text-sm text-gray-600">
+                    Pros/cons of using InSpec profiles for system baseline
+                    validation. Includes performance and audit implications.
+                  </p>
+                  <p className="text-xs text-gray-400">
+                    Asked by Anil • 1 answer • 5 hours ago
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -219,57 +258,61 @@ export default function SkillsRecognitionPortal() {
             </p>
           </div>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-700 mb-2">
-              📈 Progress to Next Reward
-            </h3>
-            <div className="w-full bg-gray-200 rounded-full h-3 mb-2">
-              <div
-                className="bg-teal-500 h-3 rounded-full"
-                style={{ width: "83%" }}
-              ></div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
+            <div>
+              <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                📈 Progress to Next Reward
+              </h3>
+              <div className="w-full bg-gray-200 rounded-full h-3 mb-1">
+                <div
+                  className="bg-teal-500 h-3 rounded-full"
+                  style={{ width: "83%" }}
+                ></div>
+              </div>
+              <p className="text-xs text-gray-600">1250 / 1500 pts</p>
             </div>
-            <p className="text-sm text-gray-600">
-              1250 / 1500 pts to next reward
-            </p>
-          </div>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-700 mb-2">
-              🎁 Rewards Available
-            </h3>
-            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-              <li>HEAL$ – 1000 pts → $100</li>
-              <li>NTUC Voucher – 500 pts → $50</li>
-              <li>Wireless Headphones – 2000 pts</li>
-              <li>Extra Leave Day – 1500 pts</li>
-            </ul>
-          </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                🎁 Rewards Available
+              </h3>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li>💵 HEAL$ – 1000 pts → $100</li>
+                <li>🛒 NTUC Voucher – 500 pts → $50</li>
+                <li>🎧 Wireless Headphones – 2000 pts</li>
+                <li>🛏️ Extra Leave Day – 1500 pts</li>
+              </ul>
+            </div>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-700 mb-2">
-              📜 Redemption History
-            </h3>
-            <ul className="list-disc pl-5 text-sm text-gray-700 space-y-1">
-              <li>NTUC Voucher – Redeemed 1 week ago</li>
-              <li>HEAL$ – Redeemed last month</li>
-            </ul>
-          </div>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                📜 Redemption History
+              </h3>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li>🛒 NTUC Voucher – 1 week ago</li>
+                <li>💵 HEAL$ – Last month</li>
+              </ul>
+            </div>
 
-          <div className="mb-6">
-            <h3 className="text-lg font-semibold text-gray-700 mb-2">
-              🏅 Leaderboard
-            </h3>
-            <ul className="space-y-1 text-sm">
-              {["Alice", "John", "Sarah", "Ben", "Rachel", "David"].map(
-                (name, idx) => (
-                  <li key={name}>
-                    {`🥇🥈🥉⭐️⭐️⭐️`[idx] || "🔹"} <strong>{name}</strong> –{" "}
-                    {1500 - idx * 100} pts
-                  </li>
-                )
-              )}
-            </ul>
+            <div>
+              <h3 className="text-lg font-semibold text-gray-700 mb-2">
+                🏅 Leaderboard
+              </h3>
+              <ol className="text-sm text-gray-700 list-decimal pl-4 space-y-1">
+                <li>
+                  <strong>Germaine Luah</strong> – 1,250 pts
+                </li>
+                <li>
+                  <strong>Liu Yusheng</strong> – 999 pts
+                </li>
+                <li>
+                  <strong>Rakhee Varshney</strong> – 789 pts
+                </li>
+                <li>
+                  <strong>Chong Wengsum</strong> – 480 pts
+                </li>
+              </ol>
+            </div>
           </div>
 
           <div className="mb-6">
@@ -290,8 +333,8 @@ export default function SkillsRecognitionPortal() {
                 Academy or Cloud Guild
               </li>
               <li>
-                <strong>Bug Buster</strong> – Closed 3 Jira tech support tickets
-                on UOB private cloud infra or platform tools
+                <strong>Bug Buster</strong> – Closed 3 tech support tickets on
+                UOB private cloud infra or platform tools
               </li>
             </ul>
           </div>
