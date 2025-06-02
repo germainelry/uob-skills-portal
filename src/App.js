@@ -3,7 +3,7 @@ import uobLogo from "./assets/uob-logo.png"; // Ensure you have the logo in src/
 
 export default function SkillsRecognitionPortal() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-white font-sans overflow-y-auto">
+    <div className="min-h-screen bg-blue-50 font-sans overflow-y-auto">
       {/* Header */}
       <header className="flex items-center justify-between px-6 py-4 bg-white shadow">
         <div className="flex items-center space-x-4">
@@ -27,7 +27,7 @@ export default function SkillsRecognitionPortal() {
         {/* Skills Exchange Marketplace */}
         <div className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-blue-600 overflow-y-auto max-h-[85vh]">
           <h2 className="text-2xl font-extrabold text-blue-900 mb-4 flex items-center">
-            🛠️ Skills Exchange Marketplace
+            Skills Exchange Marketplace
           </h2>
           <input
             type="text"
@@ -120,7 +120,7 @@ export default function SkillsRecognitionPortal() {
         {/* Knowledge Hub */}
         <div className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-indigo-500 overflow-y-auto max-h-[85vh]">
           <h2 className="text-2xl font-extrabold text-indigo-800 mb-4 flex items-center">
-            📘 Knowledge Hub
+            Knowledge Hub
           </h2>
           <input
             type="text"
@@ -243,7 +243,7 @@ export default function SkillsRecognitionPortal() {
         {/* Gamified Recognition */}
         <div className="bg-white rounded-2xl shadow-lg p-6 border-t-4 border-teal-500 overflow-y-auto max-h-[85vh]">
           <h2 className="text-2xl font-extrabold text-teal-700 mb-4 flex items-center">
-            🏆 UOB Reward Hub
+            UOB Reward Hub
           </h2>
           <div className="mb-4 bg-teal-50 p-4 rounded-xl shadow-inner">
             <h3 className="text-xl font-bold text-teal-800">
